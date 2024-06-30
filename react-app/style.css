@@ -10,6 +10,10 @@ body {
 }
 
 nav {
+    background-image: url(./images/react-icon-small.png);
+    background-repeat: no-repeat;
+    background-size: 30px;
+    background-position: 25px center;
     display: flex;
     align-items: center;
     background-color: #21222A;
@@ -19,6 +23,10 @@ nav {
 
 .nav--logo_text, .nav--title {
     margin: 0;
+}
+
+.nav--logo_text{
+    margin-left: 40px;
 }
 
 .nav--logo_text {
@@ -31,11 +39,6 @@ nav {
 .nav--title {
     color: #DEEBF8;
     font-weight: 600;
-}
-
-.nav--icon {
-    height: 30px;
-    margin-right: 7px;
 }
 
 main {
