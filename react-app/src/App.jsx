@@ -1,7 +1,11 @@
-function App() {
-  return (
-    <h1>Positivity Clouds</h1>
-  )
-}
+import Navbar from "../components/Navbar.jsx"
+import Main from "../components/Main.jsx"
 
-export default App
+export default function App() {
+    return (
+        <div className="container">
+            <Navbar />
+            <Main />
+        </div>
+    )
+}
